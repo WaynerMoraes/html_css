@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'qualquer';
+    src: url(fontes/idroid.otf);
+}
+*{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #1b6139de, #2b975ae5,#39ce7cc0);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1{
+    padding-top: 20px;
+}
+header > h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header > ul{
+    text-align: left;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+p{
+    padding-top: 5px;
+}
+.formatacao_menu{    
+    color: white;
+    text-decoration: none;
+    padding: 10px;    
+    border-radius: 5px;     
+}
+
+.formatacao_menu:hover{
+    background-color: #82ddab38;
+    text-decoration: underline;
+}
+ 
+.cor_da_fonte{
+    color: green;
+    font-weight: bold;
+}
+
+main{       
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #84e1ad;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal > h2{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: 'qualquer';
+    color: #2c6b49;
+}
+.principal > h3{
+    padding-left: 20px;
+    font-family:'qualquer';
+    background-image: linear-gradient(to right, #c1e7d1, white);
+    color: #2c6b49;
+    
+}
+.principal{background-color: white;}
+.principal > p{
+    padding: 10px;
+    line-height: 20px;
+    text-indent: 10px;
+}
+
+.centralizar_foto{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    background-color: #1a5c38;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+.curiosidade > h4{
+    background-color: #2fa866;
+    color: white;
+    padding: 5px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.curiosidade{
+    background-color: #c5ebd6;
+    line-height: 20px;
+    text-indent: 10px;    
+    padding: 10px;    
+    border-radius: 10px;
+}
+.extra {
+    background-color: white;
+    padding:  10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.extra > p{
+    line-height: 20px;
+    padding: 10px;
+    text-indent: 10px;
+}
+
+footer{
+    background-color: #1a5c38;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
